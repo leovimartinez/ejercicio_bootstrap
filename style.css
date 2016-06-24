@@ -1,0 +1,54 @@
+.container{
+	position: relative;
+}
+
+.contenedor{
+	position: relative;
+	width: 90%;
+	margin: auto;
+	height: 100vh;
+}
+
+.abajo{
+	position: absolute;
+	width: 100%;
+	bottom: 50px;
+}
+
+.piso{
+	background-color: blue;
+	height: 300px;
+	border-style: solid;
+	border-color: black;
+}
+
+.puerta{
+	top: 19px;
+	background-color: gold;
+	height: 150px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 121px;
+}
+
+.pasto{
+	height: 50px;
+	background-color: green;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.ventana{
+	background-color: grey;
+	height: 50px;
+}
+
+@media (max-width: 600px){
+
+	.abajo{
+		position: relative;
+	}
+}
+
